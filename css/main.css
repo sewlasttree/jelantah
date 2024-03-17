@@ -1,0 +1,52 @@
+/* <uniquifier>: Use a unique and descriptive class name */
+ /* <weight>: Use a value from 100 to 900 */
+
+ /* .raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+   } */
+   
+   /* <uniquifier>: Use a unique and descriptive class name */
+ /* <weight>: Use a value from 300 to 800 */
+
+/* .open-sans-<uniquifier> {
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+} */
+
+/* body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+} */
+
+#preloader {
+   background-color: white;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 9999;
+}
+
+#status {
+   background-image: url(../img/DoubleRing-12.5s-211px.gif);
+   background-repeat: no-repeat;
+   /* background-size: 75%; */
+   width: 210px;
+   height: 210px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin-left: -105px;
+   margin-top: -105px;
+
+
+}
